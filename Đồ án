@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <meta charset="UTF-8">
+    <link href="/style.css" rel="stylesheet">
 
 </head>
 <body>
     <header>
-<div style="background-color: antiquewhite; width:100%; height: 150px;">
-    <img src="" alt="Ảnh nền">
-</div>
-<div class="Menubar">
-    <a href="#">TRANG CHỦ</a>
-    <a href="#">GIỚI THIỆU</a>
-    <a href="#">TIN TỨC-SỰ KIỆN</a>
-    <a href="#">LIÊN HỆ</a>
-</div>
+    <a href="#"><img class="logo" src="img/logo-vi-mot-moi-truong-bien-khong-rac-thai.jpg" alt="logo"></a>
     </header>
+<div class="menubar" style="background-color: blue;">
+    <ul >
+        <li><a class="text" href="#">TRANG CHỦ</a></li>
+        <li><a class="text" href="#">GIỚI THIỆU</a></li>
+        <li><a class="text" href="#">TIN TỨC-SỰ KIỆN</a></li>
+        <li><a class="text" href="#">LIÊN HỆ</a></li>
+    </ul>
+</div>
+ <div class="clearfix"></div> 
+
 <div style="background-color: aquamarine;width:100%;height: 1000px;">
     <div>
 
