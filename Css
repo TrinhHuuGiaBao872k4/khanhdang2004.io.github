@@ -1,1 +1,39 @@
-
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    background-image:url("./img/moi-truong-bien-la-gi-tai-sao-can-phai-bao-ve-moi-truong-bien-412469.jpeg");
+    background-size:cover;
+    background-position:center;
+    height:45vh;
+    background-attachment: fixed;
+}
+.logo{
+    width:200px;
+    margin-left:70px;
+    margin-top:50px;
+    border-radius: 20px;
+    
+}
+ .clearfix::after
+{
+    content: " ";
+    display: table;
+    clear: both;
+} 
+.menubar li a {
+    text-decoration:none;
+    color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px ;
+}
+.menubar li{
+    margin-left:20px;
+    display:inline-block;
+    padding:10px; 
+}
+.image{
+   
+    background-size:cover;
+}
