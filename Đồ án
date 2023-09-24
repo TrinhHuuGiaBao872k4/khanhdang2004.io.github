@@ -8,8 +8,8 @@
 <body>
     <!---Phần Đầu-->
     <header>
-    <a href="#"><img class="logo" src="img/logo-vi-mot-moi-truong-bien-khong-rac-thai.jpg" alt="logo"></a>
-    
+    <a href="#"><img class="logo" src="/img/logo-vi-mot-moi-truong-bien-khong-rac-thai.jpg" alt="logo"></a>
+    <div><p class="title">HÃY BẢO VỆ MÔI TRƯỜNG BIỂN</p></div>
     </header>
 <div class="menubar" style="background-color: #33CCFF;">
     <ul >
