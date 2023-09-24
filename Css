@@ -3,19 +3,24 @@
     box-sizing: border-box;
 }
 header{
-    background-image:url("./img/moi-truong-bien-la-gi-tai-sao-can-phai-bao-ve-moi-truong-bien-412469.jpeg");
+    background-image:url("https://vcdn1-dulich.vnecdn.net/2020/05/18/7-Eo-Gio-Quy-Nhon-Pham-Huy-Trung-1589773698.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=2Vv2A7kUFmz_Cl1cPVaHug");
     background-size:cover;
     background-position:center;
     height:45vh;
     background-attachment: fixed;
 }
+
 .logo{
     width:200px;
-    margin-left:70px;
-    margin-top:50px;
-    border-radius: 20px;
+    margin-left:200px;
+    margin-top:60px;
+    border-radius: 30% ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px ;
+    font-weight: 50px ;
     
 }
+
  .clearfix::after
 {
     content: " ";
@@ -24,16 +29,38 @@ header{
 } 
 .menubar li a {
     text-decoration:none;
-    color:antiquewhite;
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px ;
+    font-weight: 20px ;
+    padding-bottom: 3px ;
+    transition:  border-bottom 0.5s;
 }
+.menubar li a:hover,
+.menubar li a:active{
+    border-bottom:2px solid white ;
+}
+.fa-home:hover,
+.fa-home:active{
+    border-bottom:2px solid white ;
+}
+
 .menubar li{
     margin-left:20px;
     display:inline-block;
     padding:10px; 
 }
 .image{
-   
     background-size:cover;
+}
+.fa-home{
+    color:white;
+    margin-right: 2px;
+    padding-bottom: 3px ;
+    transition: boder-bottom 0.5s;
+}
+.title{
+    text-align: center;
+    color:aliceblue;
+    margin-top:-100px;
 }
