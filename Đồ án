@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <link href="/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body>
     <!---Phần Đầu-->
     <header>
     <a href="#"><img class="logo" src="img/logo-vi-mot-moi-truong-bien-khong-rac-thai.jpg" alt="logo"></a>
+    
     </header>
 <div class="menubar" style="background-color: #33CCFF;">
     <ul >
-        <li><i class="fa-solid fa-house">HOME</i></li>
+        <li></li><i class="fas fa-home"></i><li></li>
         <li><a class="text" href="#">TRANG CHỦ</a></li>
         <li><a class="text" href="#">GIỚI THIỆU</a></li>
         <li><a class="text" href="#">TIN TỨC-SỰ KIỆN</a></li>
