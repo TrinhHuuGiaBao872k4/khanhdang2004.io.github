@@ -2,6 +2,7 @@
     margin:0;
     box-sizing: border-box;
 }
+/*---------------PHẦN ĐẦU----------------/*/
 header{
     background-image:url("https://vcdn1-dulich.vnecdn.net/2020/05/18/7-Eo-Gio-Quy-Nhon-Pham-Huy-Trung-1589773698.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=2Vv2A7kUFmz_Cl1cPVaHug");
     background-size:cover;
@@ -12,15 +13,20 @@ header{
 
 .logo{
     width:200px;
-    margin-left:200px;
-    margin-top:60px;
-    border-radius: 50% ;
+    margin-left:150px;
+    margin-top:100px;
+    border-radius: 500% ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px ;
     font-weight: 50px ;
     
 }
-
+.title{
+    text-align: center;
+    color:aliceblue;
+    margin-top:-100px;
+  
+}
  .clearfix::after
 {
     content: " ";
@@ -49,18 +55,69 @@ header{
     margin-left:20px;
     display:inline-block;
     padding:10px; 
+    text-align: center;
 }
 .image{
-    background-size:cover;
+    background-size:cover; 
 }
 .fa-home{
     color:white;
-    margin-right: 2px;
+    margin-right: 0px;
+    margin-left:70px;
     padding-bottom: 3px ;
     transition: boder-bottom 0.5s;
 }
-.title{
-    text-align: center;
-    color:aliceblue;
-    margin-top:-100px;
+/*---------------PHẦN GIỮA----------------/*/
+.img-banner{
+    margin-left:150px;
+    margin-top: 10px ;
+    width: 1200px ;
+    height: 140px;
+   
+   
+}
+.banner{
+    width: auto ;
+    height: auto ;
+}
+.img-2{
+    width:480px;
+    height:280px;
+    margin-top:10px;
+    margin-left:10px; 
+    
+}
+
+.text-main-1{
+    float:left;
+    margin-left:150px;
+    margin-top:10px;
+}
+::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+h2{
+    margin-top:20px;
+    margin-left:10px;
+    text-decoration:none;
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1C1C1C;
+}
+.para-main{
+    margin-top:10px;
+    margin-left:10px;
+    color:#1C1C1C;
+}
+.text-main-2{
+    float:right;
+    margin-right:160px;
+    margin-top:10px;
+}
+.tmain{
+   width: 325px ;
+   height:auto;
+   
 }
