@@ -2,59 +2,176 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link href="/style.css" rel="stylesheet">
+    <link href="/DOANWEB/DoAnWeb.css" rel="stylesheet">
+    <link href="/DOANWEB/DoAnWeb.js" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body>
     <!---Phần Đầu-->
     <header>
-    <a href="#"><img class="logo" src="/Img/383296245_620863830203248_2998338106617857703_n.jpg" alt="logo"></a>
+    <a href="#"><img class="logo" src="/383296245_620863830203248_2998338106617857703_n.jpg" alt="logo"></a>
     <div><h1 class="title">HÃY BẢO VỆ MÔI TRƯỜNG BIỂN</h1></div>
     </header>
-<div class="menubar" style="background-color: #3366CC;">
-    <ul >
-        <li></li><i class="fas fa-home"></i><li></li>
-        <li><a class="text" href="#">TRANG CHỦ</a></li>
-        <li><a class="text" href="#">GIỚI THIỆU</a></li>
-        <li><a class="text" href="#">TIN TỨC-SỰ KIỆN</a></li>
-        <li><a class="text" href="#">LIÊN HỆ</a></li>
-        
-    </ul>
+    <div class="menubar" style="background-color: #3366CC;">
+        <ul >
+            <li></li><i class="fas fa-home"></i><li></li>
+            <li><a class="text-1" href="#">TRANG CHỦ</a></li>
+            <li><a class="text-1" href="#">GIỚI THIỆU</a></li>
+            <li><a class="text-1" href="#">TIN TỨC-SỰ KIỆN</a></li>
+            <li><a class="text-1" href="#">LIÊN HỆ</a></li>
+            
+        </ul>
 
-</div>
- <div class="clearfix"></div> 
+    </div>
+    <div class="clearfix"></div> 
  <!--Phần thân-->
 
-<div style="background-color:#EEE9E9;width: auto;height:auto;">  
-        <section>
-            <div class="banner">
-                <a href="https://anhdungstraws.com/?gclid=Cj0KCQjwjt-oBhDKARIsABVRB0zVm5wFEH6wa3E3x81J6J02Ioa1UThb3kvo0sbd3EnxOGjKBn5vcoQaAoSkEALw_wcB"><img class="img-banner" src="/Img/banner 1 .jpeg" alt="Quảng cáo "></a>
-            </div>
-    
-            <div class="text-main-1 " style="background-color:#FFFAFA;width:autox;;height:auto;">
-               <a  href="https://nhandan.vn/chung-tay-bao-ve-moi-truong-bien-va-hai-dao-post756005.html">
-                <div style="float:right;">
-                <h2>Chung tay bảo vệ môi trường biển<br> và hải đảo</h2>
-                <p class="para-main">Việt Nam là quốc gia biển, có tiềm năng và lợi thế rất lớn<br> để phát triển các  ngành kinh tế biển.</p>
+    <div style="background-color:#EEE9E9;width: auto;height:auto;">  
+            
+            <section>
+                <div class="banner">
+                    <style>
+                        * {box-sizing: border-box;}
+                        body {font-family: Verdana, sans-serif;}
+                        .mySlides {display: none;}
+                        img {vertical-align: middle;}
+                        
+                        /* Slideshow container */
+                        .slideshow-container {
+                          max-width: 1000px;
+                          position: relative;
+                          margin: auto;
+                        }
+                        
+                        /* Caption text */
+                        .text {
+                          color: #f2f2f2;
+                          font-size: 15px;
+                          padding: 8px 12px;
+                          position: absolute;
+                          bottom: 8px;
+                          width: 100%;
+                          text-align: center;
+                        }
+                        
+                        /* Number text (1/3 etc) */
+                        .numbertext {
+                          color: #f2f2f2;
+                          font-size: 12px;
+                          padding: 8px 12px;
+                          position: absolute;
+                          top: 0;
+                        }
+                        
+                        /* The dots/bullets/indicators */
+                        .dot {
+                          height: 0px;
+                          width: 0px;
+                          margin: 0px;
+                          background-color: #bbb;
+                          border-radius: 50%;
+                          display: inline-block;
+                          transition: background-color 0.6s ease;
+                        }
+                        
+                        .active {
+                          background-color: #717171;
+                        }
+                        
+                        /* Fading animation */
+                        .fade {
+                          animation-name: fade;
+                          animation-duration: 1.5s;
+                        }
+                        
+                        @keyframes fade {
+                          from {opacity: .4} 
+                          to {opacity: 1}
+                        }
+                        
+                        /* On smaller screens, decrease text size */
+                        @media only screen and (max-width: 300px) {
+                          .text {font-size: 11px}
+                        }
+                        </style>
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          
+                          <a href="https://anhdungstraws.com/?gclid=Cj0KCQjwjt-oBhDKARIsABVRB0zVm5wFEH6wa3E3x81J6J02Ioa1UThb3kvo0sbd3EnxOGjKBn5vcoQaAoSkEALw_wcB"><img class="img-3" src="/383089496_288257810665707_1905419284486334362_n.jpg" style="width:100%"></a>
+                          
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          
+                          <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fkfcvietnam.com.vn%2F%3Ffbclid%3DIwAR22grAG8w-MBEruI2ddMe95iSb9J4Tgzl4j_ONw7l_gXlj1AuLWUKnZzNQ&h=AT27GD1dLxVbBrqirCH9IhNwGgCNcY5EhbhB1Dd6XWsDnq1WRLrNwSfXCcrRdD29LmKNt6d-RA9ECOCH_hdk0V1qk4jXzaAE5mN7af8-0tNJxzg5jjR6bQ7OasQ3R1qQXBpqqw"><img class="img-3" src="/DOANWEB/383606929_341000021830100_1551990193831409963_n.gif" style="width:100%"></a>
+                          
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          
+                          <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftiki.vn%2F%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DSEA_NBR_GGL_TXT_SBR_ALL_VN_ALL_UNK_UNK_C.ALL_X.9805780973_Y.99446805025_Q.e_K.Tiki_W.DT_R.430254349628_T.aud-892837214299%253Akwd-10246492_L.HP_O.CIR%26gclid%3DCjwKCAjw9-6oBhBaEiwAHv1QvIo3kCDAGXrQNVl77D20pwldkQ3KKi3r-jZTUbwYCUNPlx_k2r0fqBoCQgUQAvD_BwE%26fbclid%3DIwAR0aoC8SRXye33aqZmFrM6u4439i05iUBiPcg-NXlkAXcVlWTtr-nDQ17WU&h=AT27GD1dLxVbBrqirCH9IhNwGgCNcY5EhbhB1Dd6XWsDnq1WRLrNwSfXCcrRdD29LmKNt6d-RA9ECOCH_hdk0V1qk4jXzaAE5mN7af8-0tNJxzg5jjR6bQ7OasQ3R1qQXBpqqw"><img class="img-3" src="/DOANWEB/386468749_148446141629854_4719241815610426339_n.jpg" style="width:100%"></a>
+                          
+                        </div>
+                        
+                        </div>
+                        <br>
+                        
+                       <div style="text-align:center">
+                          <span class="dot"></span> 
+                          <span class="dot"></span> 
+                          <span class="dot"></span> 
+                        </div>
+                        
+                        <script>
+                        let slideIndex = 0;
+                        showSlides();
+                        
+                        function showSlides() {
+                          let i;
+                          let slides = document.getElementsByClassName("mySlides");
+                          let dots = document.getElementsByClassName("dot");
+                          for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                          }
+                          slideIndex++;
+                          if (slideIndex > slides.length) {slideIndex = 1}    
+                          for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                          setTimeout(showSlides, 2000); // Change image every 2 seconds
+                        }
+                        </script>
+                        
                 </div>
-                <img class="img-2" src="/Img/img2.jpeg" alt="ảnh môi trường"></a>
-            </div>
-             
-            <div class="text-main-2" style="background-color:#FFFAFA;width:autox;;height:auto;" >
-                <table class="tmain" border="1" >
-               <td>àdnsds</td>
-                </table>
-            </div>
-        </section>
-
-
-    
-    
-        
-    
+                <div class="text-main-1 " style="background-color:#FFFAFA;width:autox;;height:auto;">
+                    <a  href="https://nhandan.vn/chung-tay-bao-ve-moi-truong-bien-va-hai-dao-post756005.html">
+                    <div style="float:right;">
+                    <h2>Chung tay bảo vệ môi trường biển<br> và hải đảo</h2>
+                    <p class="para-main">Việt Nam là quốc gia biển, có tiềm năng và lợi<br> thế rất lớn để phát triển các  ngành kinh tế biển.</p>
+                    </div>
+                    <img class="img-2" src="/385434855_698959992084845_1556185554638364089_n.jpg" alt="ảnh môi trường"></a>
+                </div>
+                <div class="text-main-2" style="background-color:#FFFAFA;width:autox;;height:auto;" >
+                    <table class="tmain" border="0" >
+                      <tr> 
+                      <td>Tin tức Liên Quan</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                      </tr>
+                    </table>
+                </div>
+            </section>
+    </div>
+ <!--Phần cuối-->
+<div>
+  <footer class="footerlast" style="background-color: #3366CC;height: 150px;">
+    <h3 class="word">Trường đại học Ngoại Ngữ - Tin Học TP Hồ Chí Minh (HUFLIT)</h3>
+  </footer>
 </div>
-<!--Phần cuối-->
-
 
 </body>
 
